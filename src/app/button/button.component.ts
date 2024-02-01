@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './button.component.css'
 })
 export class ButtonComponent {
-
+  amount: number = 0;
+  adding() {
+    console.log("adding works");
+    this.amount++;
+  }
 }
